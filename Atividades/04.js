@@ -15,4 +15,6 @@ if (media >= 6){
     console.log("PARABÉNS! Você foi aprovado")
 } else if (media < 6){
     console.log("Você foi REPROVADO! Estude mais")
+}else{
+    console.log("Nota indefinida!")
 }
