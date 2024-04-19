@@ -8,8 +8,8 @@ let multiplicacao = 1.8;
 let resultado;
 let atribuicao;
 
-    atribuicao = multiplicacao * numero;
-    resultado = atribuicao + 32;
+atribuicao = multiplicacao * numero;
+resultado = atribuicao + 32;
 if (numero == -273){
     console.log("Não é possivel converter ")
 } else{
