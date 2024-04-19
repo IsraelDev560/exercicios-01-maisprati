@@ -1,7 +1,11 @@
 // 10. Escreva um algoritmo para ler um número inteiro e escrevê-lo na tela 10 vezes.
 
-let numero;
+const prompt = require("prompt-sync")();
 
-for (numero = 1; numero <=10; numero++){
+let numero = parseInt(prompt("Digite um Número: "));
+let contador = 0;
+
+do {
     console.log(numero);
-}
+    contador++;
+} while(contador < 10);
