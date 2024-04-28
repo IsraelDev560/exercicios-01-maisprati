@@ -4,7 +4,7 @@
 
 const prompt = require("prompt-sync")()
 
-let macas = parseInt(prompt("Digite quantas maças deseja: "))
+let macas = parseInt(prompt("Digite quantas maçãs deseja: "));
 const preco = 0.30;
 const preco2 = 0.25;
 let resultado;
@@ -13,7 +13,9 @@ if (macas <=11){
     resultado = preco * macas;
     console.log("Você deseja "+macas+" Maçãs, valor total da compra: "+resultado+"R$")
 
-}else{
+} else if (isNaN(macas)){
+    console.log("Isso não é um número!!");
+} else{
     resultado = preco2 * macas;
     console.log("Você deseja "+macas+" Maçãs, valor total da compra: "+resultado+"R$")
 }
