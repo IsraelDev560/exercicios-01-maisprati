@@ -7,17 +7,17 @@
 
 const prompt = require("prompt-sync")()
 
-console.log("Vamos conferir se você passou nesse semestre, abaixo digite suas notas. :)")
+console.log("Vamos conferir se você passou nesse semestre, abaixo digite suas notas. :)");
 let nota1 = parseFloat(prompt("Digite a Primeira nota "));
 let nota2 = parseFloat(prompt("Digite a Segunda nota "));
 let media = (nota1 + nota2) / 2;
 
-if (media >= 6){
+if (media >= 6) {
     console.log("PARABÉNS! Você foi aprovado");
-} else if (media < 6){
+} else if (media < 6) {
     console.log("Você foi REPROVADO! Estude mais");
-}else if(isNaN(nota1 && nota2)){
+} else if (isNaN(nota1 && nota2)) {
     console.log("Isso não é um número.");
-}else{
+} else {
     console.log("Nota indefinida!");
 }
