@@ -10,9 +10,9 @@ let atribuicao = multiplicacao * numero;
 let resultado = atribuicao + 32;
 
 if (numero == -273){
-    console.log("Não é possivel converter ")
+    console.log("Não é possivel converter ");
 } else if(isNaN(numero)){
-    console.log("Isso não é um número.")
+    console.log("Isso não é um número.");
 }
  else{
     console.log(`a temperatura em ${numero} Graus Celsius foi transformada para ${resultado} Fahrenheit`);
