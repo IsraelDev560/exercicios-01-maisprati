@@ -30,7 +30,7 @@ while (true) {
 } media = somaNumeros / somaPesos;
 
 if (isNaN(numero) || isNaN(peso)) {
-    console.log("A média ponderada dos números não foi calculada pois houve erro na entrada de dados:");
+    console.log("A média ponderada dos números não foi calculada pois houve erro na entrada de dados.");
 } else {
     console.log("A média ponderada dos números decimais é: " + media.toFixed(2));
 }
