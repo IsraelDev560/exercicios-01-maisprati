@@ -4,8 +4,10 @@
 
 ## Tecnologias Usadas
 
-### Nesta lista de exercicios, utilizamos o JavaScript e o NodeJS para poder executar os Script's utilizando o terminal.
-
+### Nesta lista de exercicios, utilizamos o JavaScript e o NodeJS para poder executarmos os Script's utilizando o terminal.
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+---
 ## Descrição dos Exercícios
 A descrição para cada exercício será encontrada comentada no código-fonte de cada exercício.
 
