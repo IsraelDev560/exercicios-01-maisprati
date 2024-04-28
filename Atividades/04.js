@@ -16,7 +16,7 @@ if (media >= 6) {
     console.log("PARABÉNS! Você foi aprovado");
 } else if (media < 6) {
     console.log("Você foi REPROVADO! Estude mais");
-} else if (isNaN(nota1 && nota2)) {
+} else if (isNaN(nota1 || nota2)) {
     console.log("Isso não é um número.");
 } else {
     console.log("Nota indefinida!");
