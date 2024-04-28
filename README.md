@@ -5,7 +5,7 @@
 ## Tecnologias Usadas
 
 ### Nesta lista de exercicios, utilizamos o JavaScript e o NodeJS para poder executarmos os Script's utilizando o terminal.
-[![My Skills](https://skillicons.dev/icons?i=js,nodejs)](https://skillicons.dev)
+![My Skills](https://skillicons.dev/icons?i=js,nodejs)
 ---
 ## Descrição dos Exercícios
 A descrição para cada exercício será encontrada comentada no código-fonte de cada exercício.
