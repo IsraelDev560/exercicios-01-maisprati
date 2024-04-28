@@ -5,7 +5,11 @@ const prompt = require("prompt-sync")();
 let numero = parseInt(prompt("Digite um Número: "));
 let contador = 0;
 
-do {
-    console.log(numero);
-    contador++;
-} while(contador < 10);
+if (isNaN(numero)) {
+    console.log("Isso não é um número!!!");
+} else {
+    do {
+        console.log(numero);
+        contador++;
+    } while (contador < 10);
+}
