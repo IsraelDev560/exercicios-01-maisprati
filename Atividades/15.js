@@ -13,20 +13,24 @@ let somaPesos = 0;
 
 while (true) {
     numero = parseFloat(prompt("Digite um número decimal: "));
-    peso = parseFloat(prompt("Digite o peso do último número: "));
+
     if (numero === 0) {
-        console.log("Programa encerrado!")
+        console.log("Programa encerrado!");
         break;
     }
-    else if (isNaN(numero) && isNaN(peso)) {
-        console.log("Isso não é um Número")
-    }
-    else {
-        somaNumeros += numero * peso;
-        somaPesos += peso;
+    peso = parseFloat(prompt("Digite o peso do último número: "));
+
+    if (isNaN(numero) || isNaN(peso)) {
+        console.log("Isso não é um Número");
     }
 
+    somaNumeros += numero * peso;
+    somaPesos += peso;
 
 } media = somaNumeros / somaPesos;
 
-console.log("A media dos números decimais é: " + media.toFixed(2));
+if (isNaN(numero) || isNaN(peso)) {
+    console.log("A média ponderada dos números não foi calculada pois houve erro na entrada de dados:");
+} else {
+    console.log("A média ponderada dos números decimais é: " + media.toFixed(2));
+}
