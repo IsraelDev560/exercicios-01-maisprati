@@ -9,7 +9,7 @@ let brancos = parseInt(prompt("Digite o numero de votos brancos: "));
 let nulos = parseInt(prompt("Digite o numero de votos nulos: "));
 let validos = parseInt(prompt("Digite o numero de votos validos: "));
 
-if (isNaN(eleitores && brancos && nulos && validos)) {
+if (isNaN(eleitores || brancos || nulos || validos)) {
     console.log("Digite apenas números.");
 } else {
     resultado = brancos / eleitores;
