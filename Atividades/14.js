@@ -10,11 +10,14 @@ let contador = 0;
 while (true) {
     numero = parseFloat(prompt("Digite um número "));
     if (numero === 0) {
-        console.log("Programa encerrado!")
+        console.log("Programa encerrado!");
         break;
+    } else if (isNaN(numero)) {
+        console.log("Isso não é um número!!!");
+    } else {
+        soma += numero;
+        contador++;
     }
-    soma += numero;
-    contador++;
 }
 media = soma / contador;
 console.log("A média dos numeros decimais é: " + media)
