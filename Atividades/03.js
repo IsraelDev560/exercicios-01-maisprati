@@ -12,7 +12,7 @@ let n2 = parseInt(prompt("Digite o Segundo número: "));
 let n3 = parseInt(prompt("Digite o Terceiro número: "));
 let n4 = parseInt(prompt("Digite o Quarto número: "));
 
-if (isNaN(n1 && n2 && n3 && n4)) {
+if (isNaN(n1 || n2 || n3 || n4)) {
     console.log("Digite apenas números.");
 } else {
     n4 += n1 + n2 + n3;
