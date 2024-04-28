@@ -8,9 +8,15 @@ const prompt = require("prompt-sync")();
 
 let numero;
 
-for(let colocar = 0; colocar < 5; colocar++){
+for (let colocar = 0; colocar < 5; colocar++) {
     numero = parseInt(prompt("Digite um valor: "))
-for(contador = 0; contador <= numero; contador++){
-    console.log(`${numero} * ${contador} = `, numero * contador);
+    if (isNaN(numero)) {
+        console.log("Isso não é um número!!");
+        break;
+    } else {
+        for (contador = 1; contador <= numero; contador++) {
+            console.log(`${numero} * ${contador} = `, numero * contador);
 
-}}
+        }
+    }
+}
