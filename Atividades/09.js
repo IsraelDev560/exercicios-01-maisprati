@@ -5,7 +5,7 @@ const prompt = require("prompt-sync")()
 
 let regioes = parseInt(prompt("Digite o Número da Região: "));
 
-switch(regioes){
+switch (regioes) {
     case 1:
         console.log("Sul");
         break;
@@ -25,13 +25,13 @@ switch(regioes){
         console.log("Sudeste");
         break;
     default:
-    if(regioes >= 10 && regioes<=20){
-        console.log("Centro-Oeste")
-    }else if(regioes>=25 && regioes <=50){
-        console.log("Nordeste")
-    }else if(isNaN(regioes)){
-        console.log("Região inválida ou não encontrada")
-    }else{
-        console.log("Produto importado")
-    }
+        if (regioes >= 10 && regioes <= 20) {
+            console.log("Centro-Oeste");
+        } else if (regioes >= 25 && regioes <= 50) {
+            console.log("Nordeste");
+        } else if (isNaN(regioes)) {
+            console.log("Região inválida ou não encontrada");
+        } else {
+            console.log("Produto importado");
+        }
 }
