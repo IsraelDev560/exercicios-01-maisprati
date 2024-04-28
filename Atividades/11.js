@@ -10,9 +10,10 @@ while (true) {
 
     if (numero <= 0) {
         console.log("Número nulo ou negativo. Encerrando o programa.");
-        break; 
-    }
-    else if (numero % 2 === 0) {
+        break;
+    } else if (isNaN(numero)) {
+        console.log("Isso não é um número, por favor digite um número.")
+    } else if (numero % 2 === 0) {
         console.log("O número " + numero + " é par.");
     } else {
         console.log("O número " + numero + " é ímpar.");
