@@ -14,14 +14,14 @@ let c = parseFloat(prompt("Digite a Terceiro lado do Triângulo "));
 
 a < b + c && b < a + c && c < a + b;
 
-if (a == b || a == c || b == c ){
+if (parseFloat(a == b || a == c || b == c)) {
     console.log("Triângulo isósceles");
 }
-else if (a != b && b != c){
+else if (parseFloat(a != b && b != c)) {
     console.log("Triângulo escaleno");
 }
-else if (a == b && b == c){
+else if (parseFloat(a == b && b == c)) {
     console.log("Triângulo eqüilátero");
-} else{
-    console.log("Valor indefinido!")
+} else {
+    console.log("Valor indefinido!");
 }
