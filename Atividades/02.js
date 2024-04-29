@@ -11,6 +11,8 @@ let validos = parseInt(prompt("Digite o numero de votos validos: "));
 
 if (isNaN(eleitores || brancos || nulos || validos)) {
     console.log("Digite apenas números.");
+} else if (brancos > eleitores || nulos > eleitores || validos > eleitores) {
+    console.log("Os números de eleitores são menores que os votos.");
 } else {
     resultado = brancos / eleitores;
     resultado2 = resultado * 100;
